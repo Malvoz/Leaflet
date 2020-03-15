@@ -263,6 +263,18 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	border: 2px dotted #38f;
 	background: rgba(255,255,255,0.5);
 	}
+.leaflet-container a,
+.leaflet-control-attribution {
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	}
+.leaflet-container {
+	-ms-user-select: element;
+	    user-select: element;
+	    user-select: contain;
+	}
 
 
 /* general typography */
