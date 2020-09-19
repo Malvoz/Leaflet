@@ -15,8 +15,12 @@
 	top: 0;
 	}
 .leaflet-container {
+	contain: size;
 	overflow: hidden;
 	}
+.leaflet-pane {
+	contain: layout;
+ }
 .leaflet-tile,
 .leaflet-marker-icon,
 .leaflet-marker-shadow {
